@@ -4,7 +4,7 @@ How to enable JSON+LD Rich Snippets for the Google Knowledge Graph and SERPs.
 Here's what it all looks like put together:
 
 ```json
-<script>
+<script type="application/ld+json">
     {
       "@context": "http://schema.org",
       "@type": "Organization",
