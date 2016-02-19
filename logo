@@ -1,5 +1,3 @@
-
-```json
 <script type="application/ld+json">
     {
       "@context": "http://schema.org",
@@ -7,5 +5,4 @@
       "url": "http://www.example.com",
       "logo": "http://www.example.com/images/logo.png"
     }
-  </script>
-```
+ </script>
