@@ -20,11 +20,13 @@ Combining 2 separate schema types or entities:
     [{
       "@context": "http://schema.org",
       "@type": "Organization",
+      "name": "Organization 1",
       "url": "http://www.example.com",
       "logo": "http://www.example.com/images/logo.png"
     },{
       "@context": "http://schema.org",
       "@type": "Organization",
+      "name": "Organization 2",
       "url": "http://www.example.com",
       "logo": "http://www.example.com/images/logo.png"
     }]
