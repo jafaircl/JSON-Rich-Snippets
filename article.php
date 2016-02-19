@@ -4,7 +4,7 @@
   "@type": "NewsArticle",
   "mainEntityOfPage":{
     "@type":"WebPage",
-    "@id":"<?php echo whatever; ?>"
+    "@id":"https://google.com/article"
   },
   "headline": "Article headline",
   "image": {
