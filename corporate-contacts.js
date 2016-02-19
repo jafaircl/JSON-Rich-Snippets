@@ -1,0 +1,66 @@
+// Single contact
+
+<script type="application/ld+json">
+{
+  "@context" : "http://schema.org",
+  "@type" : "Organization",
+  "url" : "http://www.your-company-site.com",
+  "contactPoint" : [{
+    "@type" : "ContactPoint",
+    "telephone" : "+1-401-555-1212",
+    "contactType" : "customer service"
+  }]
+}
+</script>
+
+// Multiple contacts
+
+<script type="application/ld+json">
+{
+  "@context" : "http://schema.org",
+  "@type" : "Organization",
+  "url" : "http://www.t-mobile.com",
+  "contactPoint" : [{
+    "@type" : "ContactPoint",
+    "telephone" : "+1-877-746-0909",
+    "contactType" : "customer service",
+    "contactOption" : "TollFree",
+    "areaServed" : "US"
+  },{
+    "@type" : "ContactPoint",
+    "telephone" : "+1-505-998-3793",
+    "contactType" : "customer service"
+  },{
+    "@type" : "ContactPoint",
+    "telephone" : "+1-877-296-1018",
+    "contactType" : "customer service",
+    "contactOption" : [
+      "HearingImpairedSupported",
+      "TollFree"
+    ],
+    "areaServed" : "US"
+  },{
+    "@type" : "ContactPoint",
+    "telephone" : "+1-877-453-1304",
+    "contactType" : "technical support",
+    "contactOption" : "TollFree",
+    "areaServed" : [
+      "US",
+      "CA"
+    ],
+    "availableLanguage" : [
+      "English",
+      "French"
+    ]
+  },{
+    "@type" : "ContactPoint",
+    "telephone" : "+1-877-453-1304",
+    "contactType" : "bill payment",
+    "contactOption" : "TollFree",
+    "areaServed" : [
+      "US",
+      "CA"
+    ]
+  }]
+}
+</script>
