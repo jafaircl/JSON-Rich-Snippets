@@ -23,7 +23,7 @@
       "logo": {
           "@type": "ImageObject",
           "url": "<?php echo get_option('logo'); ?>",
-          <?php list($width, $height, $tyoe, $attr) = getimagesize( get_option('logo') ); ?>
+          <?php list($width, $height, $type, $attr) = getimagesize( get_option('logo') ); ?>
           "width": "<? echo $width; ?>",
           "height": "<? echo $height; ?>"
       }
