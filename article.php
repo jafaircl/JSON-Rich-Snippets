@@ -48,7 +48,7 @@
     "@type":"WebPage",
     "@id":"<?php the_permalink(); ?>"
   },
-  "headline": "Article headline",
+  "headline": "<?php the_title() ?>",
   "image": {
     "@type": "ImageObject",
     "url": "<?php echo $img_url[0]; ?>",
