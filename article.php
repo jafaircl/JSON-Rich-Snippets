@@ -36,7 +36,7 @@
 <!-- Now with WordPress using common hooks & plugin-defined logo -->
 
 <?php 
-    // Get the featured image. Returns an array: [url, width, height]
+    // Get the featured image.
     $img_id = get_post_thumbnail_id();
     $img_url = wp_get_attachment_image( $img_id, 'full', true ); // Returns an array: [url, width, height]
     // Get the excerpt to use as a description. Could also use a plugin-defined description.
