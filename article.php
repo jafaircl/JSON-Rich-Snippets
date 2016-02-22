@@ -35,9 +35,14 @@
 
 <!-- Now with WordPress using common hooks & plugin-defined logo -->
 
-<?php // Get the featured image. Returns an array: [url, width, height]
+<?php 
+    // Get the featured image. Returns an array: [url, width, height]
     $img_id = get_post_thumbnail_id();
     $img_url = wp_get_attachment_image( $img_id, 'full', true ); // Returns an array: [url, width, height]
+    // Get the excerpt to use as a description. Could also use a plugin-defined description.
+    $myExcerpt = get_the_excerpt(); 
+    $tags = array("<p>", "</p>"); // Returns the excerpt inside <p> tags.
+    $myExcerpt = str_replace($tags, "", $myExcerpt); // Remove <p> tags.
 ?>
 
 <script type="application/ld+json">
@@ -72,6 +77,6 @@
       "height": "<? echo $height; ?>"
     }
   },
-  "description": "<?php $myExcerpt = get_the_excerpt(); $tags = array("<p>", "</p>"); $myExcerpt = str_replace($tags, "", $myExcerpt); echo $myExcerpt; ?>"
+  "description": "<?php  echo $myExcerpt; ?>"
 }
  </script>
