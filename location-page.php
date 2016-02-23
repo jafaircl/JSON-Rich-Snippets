@@ -18,19 +18,6 @@
     "longitude": -73.982294
   },
   "url": "https://essentiaservices.org/location/west-acres-clinic-fargo/",
-  "contactPoint" : [{
-      "@type" : "ContactPoint",
-      "telephone" : "+1-800-437-4054",
-      "contactType" : "customer service",
-      "contactOption" : "TollFree",
-      "areaServed" : "US"
-    },
-    {
-      "@type" : "ContactPoint",
-      "telephone" : "+1-701-364-8900",
-      "contactType" : "customer service"
-    }
-  ],
   "telephone" : "+1-701-364-8900",
   "openingHoursSpecification": [
     {
@@ -60,13 +47,34 @@
   ],
   "memberOf": {
     "@type": "Organization",
-    "url": "https://essentiaservices.org/",
+    "url": "http://www.essentiahealth.org/",
     "logo": {
         "@type": "ImageObject",
-        "url": "https://essentiaservices.org/wp-content/themes/essentia/images/mark.png",
+        "url": "http://www.essentiahealth.org/Uploads/Public/Images/Design/essentia-health-logo.png",
         "width": "450",
         "height": "94"
+    },
+    "sameAs" : [
+      "https://www.facebook.com/essentiahealth",
+      "https://twitter.com/EssentiaHealth",
+      "https://www.linkedin.com/company/essentia-health",
+      "https://www.youtube.com/user/essentiahealth"
+    ],
+    "contactPoint" : [{
+      "@type" : "ContactPoint",
+      "telephone" : "+1-855-469-6532",
+      "contactType" : "customer service",
+      "contactOption" : "TollFree",
+      "areaServed" : "US"
+      },
+      {
+        "@type" : "ContactPoint",
+        "telephone" : "+1-800-985-4675",
+        "contactType" : "bill payment",
+        "contactOption" : "TollFree",
+        "areaServed" : "US"
       }
+    ]
   },
   "potentialAction":{
     "@type":"ReserveAction",
