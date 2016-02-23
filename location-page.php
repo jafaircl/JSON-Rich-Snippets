@@ -1,9 +1,10 @@
 <script type="application/ld+json">
 {
   "@context": "http://schema.org",
-  "@type": "MedicalOrganization",
+  "@type": "MedicalClinic",
   "@id": "https://essentiaservices.org/",
   "name": "West Acres Clinic (Fargo)",
+  "medicalSpecialty": "PrimaryCare",
   "address": {
     "@type": "PostalAddress",
     "streetAddress": "3902 13th Avenue South",
