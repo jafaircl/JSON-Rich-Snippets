@@ -18,7 +18,20 @@
     "longitude": -73.982294
   },
   "url": "https://essentiaservices.org/location/west-acres-clinic-fargo/",
-  "telephone": "+17013648900",
+  "contactPoint" : [{
+      "@type" : "ContactPoint",
+      "telephone" : "+1-800-437-4054",
+      "contactType" : "customer service",
+      "contactOption" : "TollFree",
+      "areaServed" : "US"
+    },
+    {
+      "@type" : "ContactPoint",
+      "telephone" : "+1-701-364-8900",
+      "contactType" : "customer service"
+    }
+  ],
+  "telephone" : "+1-701-364-8900",
   "openingHoursSpecification": [
     {
       "@type": "OpeningHoursSpecification",
